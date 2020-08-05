@@ -23,7 +23,7 @@ export default class FilmsList extends Component {
       })
       .then((data) => {
         // Let's try to get only H Miyazaki films because those are my favorite
-        let film = data.filter(data=> data.director === "Hayao Miyazaki");
+        let film = data.filter(data => data.director === "Hayao Miyazaki");
         this.setState({ films: film });
       })
       .then((response) => console.log("ok"))
