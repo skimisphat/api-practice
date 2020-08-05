@@ -1,0 +1,13 @@
+.App {
+  
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 1rem;
+}
+
+
+.card {
+  padding: .5rem;
+}
