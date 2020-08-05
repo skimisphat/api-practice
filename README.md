@@ -1,3 +1,12 @@
+Known issues:
+
+- Setting state and makingthe API call should not be happening in the component itself
+- Card can be broken down into smaller components 
+
+Other improvements: 
+- Use this as a test for a lorem ipsum generator: Combine all film titles into one array, split at spaces so each word is its own item. Set the number of words to generate in a form, then generate a random array index to start from when generating those words. Ultimately I'd like to do this with Twitter someday, but their API is a bit more locked down so this seems like a great API to test with.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
